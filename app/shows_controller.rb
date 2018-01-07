@@ -1,6 +1,6 @@
 # class Show
   def highest_rating
     # binding.pry
-    self.maximum(:rating)
+    Show.maximum(:rating)
   end
 # end
