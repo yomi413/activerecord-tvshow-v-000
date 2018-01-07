@@ -3,7 +3,7 @@ require_relative './models/show'
 
   def highest_rating
     # binding.pry
-    Show.maximum("rating")
+    Show.maximum(:rating)
   end
   # binding.pry
 # end
