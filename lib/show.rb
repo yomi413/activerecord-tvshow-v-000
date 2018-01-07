@@ -5,7 +5,7 @@
   def highest_rating
     # binding.pry
     # number = 0
-    Show.minimum(:rating)
+    Show.maximum(:rating)
 
   end
 #
