@@ -5,4 +5,5 @@ require_relative './models/show'
     # binding.pry
     Show.maximum("rating")
   end
+  binding.pry
 # end
