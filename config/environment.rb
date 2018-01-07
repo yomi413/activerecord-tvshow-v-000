@@ -22,4 +22,4 @@ if ENV["ACTIVE_RECORD_ENV"] == "test"
 end
 
 # require_relative '../lib/show'
-require_all 'app'
+# require_all 'app'
