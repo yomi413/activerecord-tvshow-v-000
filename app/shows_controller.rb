@@ -1,3 +1,4 @@
+require_relative '../models/show'
 # class ShowsController
 
   def highest_rating
