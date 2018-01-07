@@ -21,5 +21,5 @@ if ENV["ACTIVE_RECORD_ENV"] == "test"
   ActiveRecord::Migration.verbose = false
 end
 
-require_relative '../lib/show'
+# require_relative '../lib/show'
 require_all 'app'
