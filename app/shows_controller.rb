@@ -1,4 +1,4 @@
-class Show
+class ShowsController
 
   # binding.pry
   def highest_rating
