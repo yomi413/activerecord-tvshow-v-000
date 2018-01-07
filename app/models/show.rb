@@ -5,9 +5,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-    # binding.pry
     self.where("rating = #{self.highest_rating}").first
-    # show.first
   end
 
   def self.lowest_rating
