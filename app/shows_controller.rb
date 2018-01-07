@@ -1,4 +1,4 @@
-# class Show
+class Show
 
 # def create(attributes)
 #   show = Show.create(attributes)
@@ -9,4 +9,4 @@ def highest_rating
   # binding.pry
   Show.maximum("rating")
 end
-# end
+end
